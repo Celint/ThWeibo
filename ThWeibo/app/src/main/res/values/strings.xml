@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThWeibo</string>
+    <string name="title_home">首页</string>
+    <string name="title_me">我</string>
+</resources>
