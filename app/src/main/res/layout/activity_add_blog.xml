@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBlogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_blog_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:navigationIcon="@mipmap/left_arrow"
+            app:titleTextColor="#ffffff"
+            app:title="发微博">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/add_blog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:enabled="true"
+            android:gravity="top"
+            android:minLines="8"
+            android:maxLines="12"
+            android:scrollbars="vertical"
+            android:hint="分享新鲜事..."
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
